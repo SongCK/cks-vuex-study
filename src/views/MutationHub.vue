@@ -5,7 +5,7 @@
     <p>{{ getNum }}</p>
     <div style="margin: 10px;">
       <span style="margin-right:10px;">mutate text</span>
-      <input type="text" v-model="mutateText" @keyup.enter="changeText"/>
+      <input style="margin-right:10px;" type="text" v-model="mutateText" @keyup.enter="changeText"/>
       <button style="margin-right:10px;" @click="changeText">Mutation</button>
       <button style="margin-right:10px;" @click="changeTextAction">Action</button>
     </div>
